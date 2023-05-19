@@ -1,13 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Web Site AM Deluxy ",
+  "description": "Website APP AM Deluxy ",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
-    
   },
   "keywords": [
     "MERN",
@@ -16,7 +15,10 @@
   "author": "Eliezer Abreu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
